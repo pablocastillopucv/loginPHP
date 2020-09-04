@@ -50,7 +50,7 @@ a:hover {
 
 .formulario .form-group {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
 }
 
 .formulario input[type="text"],
@@ -65,8 +65,7 @@ a:hover {
 .formulario .icono {
     padding: 15px;
     text-align: center;
-    width: 48px;
-    max-height: 48px;
+    width: 50px;
     font-size: 18px;
     line-height: 18px;
     background: #c8c8c8;
@@ -86,6 +85,8 @@ a:hover {
 
 .formulario .usuario,
 .formulario .password {
+    margin-top: -15px;
+    height: 48px;
     width: calc(100% - 52px);
     -webkit-border-radius: 0 3px 3px 0px;
     -moz-border-radius: 0 3px 3px 0px;
@@ -95,7 +96,14 @@ a:hover {
 }
 
 .formulario .password_btn {
-    width: calc(100%- 105px);
+    width: calc(100% - 105px);
+    margin-top: -15px;
+    height: 48px;
+    -webkit-border-radius: 0 3px 3px 0px;
+    -moz-border-radius: 0 3px 3px 0px;
+    -ms-border-radius: 0 3px 3px 0px;
+    -o-border-radius: 0 3px 3px 0px;
+    border-radius: 0 3px 3px 0px;
 }
 
 .formulario .error ul {
@@ -104,6 +112,7 @@ a:hover {
 
 .formulario .submit-btn {
     padding: 15px;
+    margin-top: -15px;
     text-align: center;
     width: 48px;
     max-height: 48px;
@@ -120,6 +129,7 @@ a:hover {
 }
 
 .texto-registrate {
+    margin-top: 20px;
     text-align: center;
 }
 
