@@ -10,6 +10,7 @@
     <div class="contenedor">
         <h1 class="titulo">Contenido del sitio</h1>
         <a href="cerrar.php">Cerrar Sesion</a>
+        <hr class="border">
         <div class="contenido">
             <article>
                 <p>
